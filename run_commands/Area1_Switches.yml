@@ -1,0 +1,165 @@
+AHP01:
+  hostname: 172.16.1.72
+  os: km
+AHP02:
+  hostname: 172.16.1.81
+  os: km
+ALD01:
+  hostname: 172.16.7.132
+  os: km
+ALW01:
+  hostname: 172.16.7.131
+  os: km
+BAS01:
+  hostname: 172.16.1.73
+  os: km
+BAS02:
+  hostname: 172.16.1.74
+  os: km
+BEE01:
+  hostname: 172.16.7.130
+  os: km
+BIN01:
+  hostname: 172.16.7.137
+  os: km
+BRD01:
+  hostname: 172.16.1.80
+  os: km
+BRI01:
+  hostname: 172.16.6.137
+  os: km
+CHA01:
+  hostname: 172.16.1.76
+  os: km
+CHI01:
+  hostname: 172.16.6.136
+  os: km
+COD01:
+  hostname: 172.16.1.66
+  os: km
+CUR01:
+  hostname: 172.16.1.69
+  os: km
+EDD01:
+  hostname: 172.16.6.129
+  os: km
+ENG01:
+  hostname: 172.16.7.134
+  os: km
+GRZ01:
+  hostname: 172.16.7.136
+  os: km
+HER01:
+  hostname: 172.16.1.71
+  os: km
+HER02:
+  hostname: 172.16.1.70
+  os: km
+HGR01:
+  hostname: 172.16.6.138
+  os: km
+HHI01:
+  hostname: 172.16.7.145
+  os: km
+HMN01:
+  hostname: 172.16.1.65
+  os: km
+HMP01:
+  hostname: 172.16.6.140
+  os: km
+INK01:
+  hostname: 172.16.6.139
+  os: km
+LOL01:
+  hostname: 172.16.6.135
+  os: km
+PEA01:
+  hostname: 172.16.6.132
+  os: km
+PGB01:
+  hostname: 172.16.7.193
+  os: km
+SE-ARBCRS:
+  hostname: 172.16.7.141
+  os: km
+SE-ARBE:
+  hostname: 172.16.7.143
+  os: km
+SE-ARBGAN:
+  hostname: 172.16.7.142
+  os: km
+SE-BNFE:
+  hostname: 172.16.7.144
+  os: km
+SE-FARH:
+  hostname: 172.16.7.140
+  os: km
+SE-FNCE:
+  hostname: 172.16.7.149
+  os: km
+SE-FNCW:
+  hostname: 172.16.7.146
+  os: km
+SE-GARGRN:
+  hostname: 172.16.7.147
+  os: km
+SE-PAESTT:
+  hostname: 172.16.9.3
+  os: km
+SE-SNES:
+  hostname: 172.16.7.148
+  os: km
+SE-SUNE:
+  hostname: 172.16.7.171
+  os: km
+SE-SWAWFE:
+  hostname: 172.16.7.138
+  os: km
+SE-TECS:
+  hostname: 172.16.7.139
+  os: km
+SE-WARGRA:
+  hostname: 172.16.9.2
+  os: km
+SE-WMAE:
+  hostname: 172.16.9.4
+  os: km
+SFD01:
+  hostname: 172.16.1.82
+  os: km
+SHE01:
+  hostname: 172.16.6.134
+  os: km
+SLY01:
+  hostname: 172.16.1.75
+  os: km
+STM01:
+  hostname: 172.16.7.135
+  os: km
+TID01:
+  hostname: 172.16.7.194
+  os: km
+UBK01:
+  hostname: 172.16.1.67
+  os: km
+UFT01:
+  hostname: 172.16.7.133
+  os: km
+WIC01:
+  hostname: 172.16.6.130
+  os: km
+WOL01:
+  hostname: 172.16.7.129
+  os: km
+WRG01:
+  hostname: 172.16.9.1
+  os: km
+WSM01:
+  hostname: 172.16.6.131
+  os: km
+WTB01:
+  hostname: 172.16.6.133
+  os: km
+YAT01:
+  hostname: 172.16.1.68
+  os: km

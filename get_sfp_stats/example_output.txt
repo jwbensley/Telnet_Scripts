@@ -1,0 +1,202 @@
+bensley@LT-10383(get_sfp_stats)$./get_sfp_stats.py -u testuser -i Area1_Switches.yml
+Default password:
+Checking AHP01...
+Checking AHP02...
+Checking ALD01...
+Checking ALW01...
+Checking BAS01...
+Checking BAS02...
+Checking BEE01...
+Checking BIN01...
+Checking BRD01...
+Checking BRI01...
+Checking CHA01...
+Checking CHI01...
+Checking COD01...
+Checking CUR01...
+Checking EDD01...
+Checking ENG01...
+Checking GRZ01...
+Checking HER01...
+Checking HER02...
+Checking HGR01...
+Checking HHI01...
+Checking HMN01...
+Checking HMP01...
+Checking INK01...
+Checking LOL01...
+Checking PEA01...
+Checking PGB01...
+Connection timeout to PGB01
+Checking SFD01...
+Checking SHE01...
+Checking SLY01...
+Checking STM01...
+Checking TID01...
+Connection timeout to TID01
+Checking UBK01...
+Checking UFT01...
+Checking WIC01...
+Checking WOL01...
+Checking WRG01...
+Checking WSM01...
+Checking WTB01...
+Checking YAT01...
++--------+----------------+------------------------------------+-------------+-----------------+----------+----------+
+| Device |      Port      |            Description             |   SPF Type  |     Part No.    | Tx Power | Rx Power |
++--------+----------------+------------------------------------+-------------+-----------------+----------+----------+
+| AHP01  | unit-11/port-1 |        Link to YAT01 U13/p1        | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -9    |
+| AHP01  | unit-11/port-2 |    Link to AHP02 unit 11 port 1    | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -3    |
+| AHP01  | unit-13/port-1 |   Link to BAS01 Unit 11/ port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -3    |
+| AHP01  | unit-13/port-2 |    link to SLY01 unit 11 port 1    | 10G BASE-LR |  PT7420-81-1D+  |    -4    |    -6    |
+| AHP02  | unit-11/port-1 |    Link to AHP01 unit 11 port 2    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -3    |
+| AHP02  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| AHP02  | unit-13/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |   -40    |
+| AHP02  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| ALD01  | unit-11/port-1 |       Link to ALW01 u13pp01        | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -7    |
+| ALD01  | unit-11/port-2 |    Link to BIN01 unit 11 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -3    |
+| ALD01  | unit-13/port-1 |       Link to UFT01 U11/pp1        | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -7    |
+| ALD01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| ALW01  | unit-11/port-1 |        Link to WOL01 u13p01        | 10G BASE-LR |  APSP31B33CDL20 |    -3    |    -5    |
+| ALW01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| ALW01  | unit-13/port-1 |        Link to ALD01 u11p1         | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -4    |
+| ALW01  | unit-13/port-2 |      Link to BEE01 U11/port 1      | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -4    |
+| BAS01  | unit-11/port-1 |    Link to AHP01 unit 13 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -1    |    -5    |
+| BAS01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BAS01  | unit-13/port-1 |    Link to BAS02 unit 11 port 1    | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -4    |
+| BAS01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BAS02  | unit-11/port-1 |    Link to BAS01 unit 13 port 1    | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -4    |
+| BAS02  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BAS02  | unit-13/port-1 |                                    | 10G BASE-LR |  PT7420-81-1D+  |    -2    |   -40    |
+| BAS02  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BEE01  | unit-11/port-1 |      Link to ALW01 u13/port 2      | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -5    |
+| BEE01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BEE01  | unit-13/port-1 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BEE01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BIN01  | unit-11/port-1 |    Link to ALD01 unit 11 port 2    | 10G BASE-LR |  APSP31B33CDL20 |    -1    |    -4    |
+| BIN01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BIN01  | unit-13/port-1 |    Link to HHI01 unit 11 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -3    |    -8    |
+| BIN01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BRD01  | unit-11/port-1 |    Link to CHA01 unit 13 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -3    |    -4    |
+| BRD01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BRD01  | unit-13/port-1 |    Link to SFD01 unit 11 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -2    |
+| BRD01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BRI01  | unit-11/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |   -40    |   -40    |
+| BRI01  | unit-11/port-2 |    10G BRI01 to SHE01 U-13 -P-2    | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -6    |
+| BRI01  | unit-13/port-1 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| BRI01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| CHA01  | unit-11/port-1 |   Link to UBK01, Unit 13 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -7    |
+| CHA01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| CHA01  | unit-13/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |    -1    |    -4    |
+| CHA01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| CHI01  | unit-11/port-1 |    10G CHI01 to PEA01 U-13 P-1     | 10G BASE-LR |  PT7420-81-1D+  |    -4    |    -7    |
+| CHI01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| CHI01  | unit-13/port-1 |              to HMN01              | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -6    |
+| CHI01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| COD01  | unit-11/port-1 |       10G via CUR01 U-13 P-1       | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -5    |
+| COD01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| COD01  | unit-13/port-1 |   Link to UBK01 unit 11 / port 1   | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -6    |
+| COD01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| CUR01  | unit-11/port-1 |      CUR01 to WTB01 U-13 P-2       | 10G BASE-LR | APSP31BB33CDL20 |    -2    |    -7    |
+| CUR01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| CUR01  | unit-13/port-1 |      CUR01 to COD01 U-11 P-1       | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -4    |
+| CUR01  | unit-13/port-2 |         To LOL01 U-11 P-1          | 10G BASE-LR |  PT7420-81-1D+  |    -4    |    -4    |
+| EDD01  | unit-11/port-1 |          To 1/1/9 ICX THE          | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -2    |
+| EDD01  | unit-11/port-2 |    Link to HGR01 unit 11 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -7    |
+| EDD01  | unit-13/port-1 |              to WIC01              | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -7    |
+| EDD01  | unit-13/port-2 |                                    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |   -40    |
+| ENG01  | unit-11/port-1 |        Link to UFT01 U13/p1        | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -3    |
+| ENG01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| ENG01  | unit-13/port-1 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| ENG01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| GRZ01  | unit-11/port-1 |    Link to STM01 unit 13 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -1    |    -4    |
+| GRZ01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| GRZ01  | unit-13/port-1 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| GRZ01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HER01  | unit-11/port-1 |        Link to LOL01 u13-p1        | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -6    |
+| HER01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HER01  | unit-13/port-1 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HER01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HER02  | unit-11/port-1 |        LINK to HMN01 U13-P1        | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -5    |
+| HER02  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HER02  | unit-13/port-1 |                                    | 10G BASE-LR |  PT7420-81-1D+  |    -2    |   -40    |
+| HER02  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HGR01  | unit-11/port-1 |        Link to EDD01 U11/p2        | 10G BASE-LR |  APSP31B33CDL20 |    0     |    -7    |
+| HGR01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HGR01  | unit-13/port-1 |        Link to INK01 U11/p1        | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -2    |
+| HGR01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HHI01  | unit-11/port-1 |    Link to BIN01 unit 13 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -3    |    -6    |
+| HHI01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HHI01  | unit-13/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |    -3    |   -40    |
+| HHI01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HMN01  | unit-11/port-1 |      HMN01 TO CHI01 U-13 P-1       | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -6    |
+| HMN01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HMN01  | unit-13/port-1 |      HMN01 to  YAT01 U-11 P-1      | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -5    |
+| HMN01  | unit-13/port-2 |          to HER02 U11 P1           | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -6    |
+| HMP01  | unit-11/port-1 |        Link to INK01 U13/p1        | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -5    |
+| HMP01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| HMP01  | unit-13/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |    -1    |   -40    |
+| HMP01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| INK01  | unit-11/port-1 |        Link to HGR01 U13/p1        | 10G BASE-LR |  APSP31B33CDL20 |    0     |    -6    |
+| INK01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| INK01  | unit-13/port-1 |        Link to HMP01 U11/p1        | 10G BASE-LR |  APSP31B33CDL20 |    -1    |    -5    |
+| INK01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| LOL01  | unit-11/port-1 |         To CUR01 U-13 P-2          | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -8    |
+| LOL01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| LOL01  | unit-13/port-1 |        Link to HER01 u11-p1        | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -6    |
+| LOL01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| PEA01  | unit-11/port-1 |           10G VIA WTB01            | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -6    |
+| PEA01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| PEA01  | unit-13/port-1 |           Link to CHI01            | 10G BASE-LR |  APSP31B33CDL20 |    -3    |   -11    |
+| PEA01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| SFD01  | unit-11/port-1 |    Link to BRD01 unit 13 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -5    |
+| SFD01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| SFD01  | unit-13/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |    -1    |   -40    |
+| SFD01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| SHE01  | unit-11/port-1 |        10G SHE01 via WSM01         | 10G BASE-LR |  PT7420-81-1D+  |    -3    |   -10    |
+| SHE01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| SHE01  | unit-13/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |   -40    |   -40    |
+| SHE01  | unit-13/port-2 |         To BRI01 U-11 P-2          | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -5    |
+| SLY01  | unit-11/port-1 |    link to AHP01 unit 13 port 2    | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -7    |
+| SLY01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| SLY01  | unit-13/port-1 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| SLY01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| STM01  | unit-11/port-1 |   link to UFT01, unit 13 port 2    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -5    |
+| STM01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| STM01  | unit-13/port-1 |    Link to GRZ01 unit 11 port 1    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -4    |
+| STM01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| UBK01  | unit-11/port-1 |   Link to COD01 unit 13 / port 1   | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -5    |
+| UBK01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| UBK01  | unit-13/port-1 |                                    | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -4    |
+| UBK01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| UFT01  | unit-11/port-1 |    Link to ALD01 - Unit 13/ p1     | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -7    |
+| UFT01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| UFT01  | unit-13/port-1 |      Link to ENG01 Unit11/p1       | 10G BASE-LR |  APSP31B33CDL20 |    -1    |    -6    |
+| UFT01  | unit-13/port-2 |   link from STM01 unit 11 port 1   | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -6    |
+| WIC01  | unit-11/port-1 |               EDD01                | 10G BASE-LR |  PT7420-81-1D+  |    -2    |    -8    |
+| WIC01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| WIC01  | unit-13/port-1 |           Link to WSM01            | 10G BASE-LR |  PT7420-81-1D+  |    -3    |   -15    |
+| WIC01  | unit-13/port-2 |           Link to WTB01            | 10G BASE-LR |  APSP31B33CDL20 |    -2    |   -11    |
+| WOL01  | unit-11/port-1 |          To LD4 XE-2/0/5           | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -2    |
+| WOL01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| WOL01  | unit-13/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -6    |
+| WOL01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| WRG01  | unit-11/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |    -3    |    -3    |
+| WRG01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| WRG01  | unit-13/port-1 |                                    | 10G BASE-LR |  APSP31B33CDL20 |    -2    |   -40    |
+| WRG01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| WSM01  | unit-11/port-1 |            10G to WIC01            | 10G BASE-LR |  PT7420-81-1D+  |    -3    |    -8    |
+| WSM01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| WSM01  | unit-13/port-1 |              to SHE01              | 10G BASE-LR |  PT7420-81-1D+  |    -4    |   -10    |
+| WSM01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| WTB01  | unit-11/port-1 |        10G WTB01 via WIC01         | 10G BASE-LR |  APSP31B33CDL20 |    -3    |    -8    |
+| WTB01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| WTB01  | unit-13/port-1 |           Link to PEA01            | 10G BASE-LR |  APSP31B33CDL20 |    -2    |    -6    |
+| WTB01  | unit-13/port-2 |         To CUR01 U-11 P-1          | 10G BASE-LR | APSP31BB33CDL20 |    -2    |    -6    |
+| YAT01  | unit-11/port-1 | YAT01 - CHI01 U-13 P-1 (Temporary) | 10G BASE-LR |  APSP31B33CDL20 |    -2    |   -10    |
+| YAT01  | unit-11/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
+| YAT01  | unit-13/port-1 |        Link to AHP01 U11/p1        | 10G BASE-LR |  PT7420-81-1D+  |    -3    |   -15    |
+| YAT01  | unit-13/port-2 |                                    |   Unknown   |     Unknown     |   -50    |   -50    |
++--------+----------------+------------------------------------+-------------+-----------------+----------+----------+
+Got stats from 38 of 40 devices
+Failed to get stats from these 2 devices: ['PGB01', 'TID01']
