@@ -5,7 +5,9 @@
 This repo contains various scripts that can be used for working with KeyMile  
 MileGate devices. These are network devices which support telnet meaning that  
 the scripts serve as examples of how to interact with legacy devices which  
-don't support SSH, an API or are supported by other libraries such as NAPALM.  
+don't support SSH, don't support an API or are not supported by other  
+libraries such as NAPALM. 
+
 The scripts show how to use Python `telnetlib` for interacting with these  
 devices.
 
