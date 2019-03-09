@@ -14,9 +14,9 @@ The `os` field **MUST** be set to `km` to match KeyMile devices.
 The hostname field can be either a hostname or IP address that is reachable.  
 
 The inventory file this script uses is in the same format used by  
-[NAPALM](https://github.com/napalm-automation/napalm) meaning that the same  
-inventory file may be used with NAPALM to manage the other devices in the  
-same inventory. This script will only connect to the KeyMile devices.  
+[NAPALM](https://github.com/napalm-automation/napalm) meaning that the same inventory file may be used with NAPALM  
+to manage the other devices in the same inventory.  
+This script will only connect to the KeyMile devices.  
 
 [Area1_Switches.yml](Area1_Switches.yml) is an example inventory file.  
 [commands.txt](commands.txt) is an example command file.
